@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Snake Water Gun Game</title>
+        <link rel="stylesheet" href="./index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <script src="./index.js"></script>
+    </head>
+    <body>
+        <div id="main-container">
+            <div id="body-container">
+            <div id="user-side">
+                <h4>You</h4>
+                <img id="user-image" src="https://icon-library.com/images/gaming-icon/gaming-icon-7.jpg" id="user-image">
+                <div id="user-buttons">
+                <button id="snake-btn" onclick="snakeFunction()">Snake</button>
+                <button id="water-btn" onclick="waterFunction()">Water</button>
+                <button id="gun-btn" onclick="gunFunction()">Gun</button>
+                </div>
+            </div>
+            <div id="computer-side">
+                <h4>Computer</h4>
+                <img src="https://cdn-icons-png.flaticon.com/512/5119/5119409.png" id="computer-image">
+            </div>
+            </div>
+            <div id="footer"> 
+            <div id="wins">
+                <h1>Wins:</h1>
+                <h2 id="win-score">0</h2>
+            </div>
+            <div id="loses">
+                <h1>Loses:</h1>
+                <h2 id="lose-score">0</h2>
+            </div>
+            </div>
+        </div>
+    </body>
+</html>
